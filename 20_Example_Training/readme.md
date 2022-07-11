@@ -4,4 +4,4 @@ Einer kleinen Dampflok und einer großen Diesellok. Die Reihenfolge der Unterord
 
 # Example of a training
 The subfolders contain an example for a transfer-learning of a object-dectection model for two lokomotives: 
-A small steam-engine and a large diese-engine. The sequence of the folders reflects the working steps. 
+A small steam-engine and a large diesel-engine. The sequence of the folders reflects the working steps. 
