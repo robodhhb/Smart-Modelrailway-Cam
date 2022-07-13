@@ -10,16 +10,33 @@ für die Erkennung von einer kleinen Dampflok und einer großen Diesellok traini
 Das Projekt bietet die Möglichkeit, das Modell für die eigene Modellbahn auf andere Zugelemente umzutrainieren. 
 
 Ein YouTube-Video zeigt die Smart Modelrailway-Cam (SMRC) in Aktion. Die SMRC kann:
- - Trainierte Zugelemente erkennen
- - Die Gleiszuordnung einer Lok feststellen
- - Den Zustand einer Lok nach "hält", "fährt" und "abwesend" für jedes konfigurierte Gleis erkennen.
+ - trainierte Zugelemente erkennen.
+ - konfigurierte Überwachungsbereiche (Gleise) unterscheiden
+ - die Gleiszuordnung einer Lok feststellen.
+ - den Zustand einer Lok nach "hält", "fährt" und "abwesend" für jedes konfigurierte Gleis erkennen.
+ - konfigurierte Regeln überprüfen, die sich auf den Zustand und Gleiszuordnung einer Lok beziehen.
 
+Die Anwendung für den Raspberry Pi ist im Ordner "10_SMRC_Application" abgelegt. 
+Der Ordner "20_Example_Training" enthält die Dateien für das Transfer-Learning des Beispiels
+mit Dampflok und Diesellok. Der Ordner "30_Your_Training" enthält Dateien und Programme für 
+die Erstellung eines Modell mit anderen Loks oder Waggons. 
 
+### Welcome to the Smart-Modelrailway-Cam
+We monitor track sections of a model railway system with artificial intelligence.
+We use a Raspberry Pi 4B with a camera and a Coral USB Accelerator.
+An AI model for object-detection helps us with this. The model was created using transfer learning
+trained to recognize a small steam engine and a large diesel engine.
+The project offers the possibility to retrain the model for your own model railway on other train elements.
 
-Ordner
-
-
-
-
-
+A YouTube video shows the Smart Modelrailway Cam (SMRC) in action. The SMRC can:
+  - recognize trained train elements.
+  - distinguish between configured monitoring regions (tracks)
+  - determine the track assignment of a locomotive.
+  - detect the status of a loco as "stopped", "moving" and "absent" for each configured track.
+  - check configured rules related to the status of a loco and its region allocation.
+  
+The application for the Raspberry Pi is stored in the folder "10_SMRC_Application".
+The folder "20_Example_Training" contains the files for the transfer learning of the example
+with steam engine and diesel engine. The "30_Your_Training" folder contains files and programs for
+the creation of a model with other locomotives or wagons.
 
