@@ -4,7 +4,7 @@
 
 ### Willkommen bei der Smart-Modelrailway-Cam (see English Version below)
 Wir überwachen Gleisabschnitte einer Modellbahnanlage mit künstlicher Intelligenz. 
-Wir nutzen einen Raspberry Pi 4B mit Kamera und einen Coral USB Accelerator. 
+Wir nutzen einen Raspberry Pi 4B mit Kamera und einen [Coral USB Accelerator](https://coral.ai/products/accelerator/). 
 Ein KI-Modell für die Objekterkennung hilft uns dabei. Das Modell wurde mit Transfer-Learning 
 für die Erkennung von einer kleinen Dampflok und einer großen Diesellok trainiert.
 Das Projekt bietet die Möglichkeit, das Modell für die eigene Modellbahn auf andere Zugelemente umzutrainieren. 
@@ -23,7 +23,7 @@ die Erstellung eines Modell mit anderen Loks oder Waggons.
 
 ### Welcome to the Smart-Modelrailway-Cam
 We monitor track sections of a model railway system with artificial intelligence.
-We use a Raspberry Pi 4B with a camera and a Coral USB Accelerator.
+We use a Raspberry Pi 4B with a camera and a [Coral USB Accelerator](https://coral.ai/products/accelerator/).
 An AI model for object-detection helps us with this. The model was created using transfer learning
 trained to recognize a small steam engine and a large diesel engine.
 The project offers the possibility to retrain the model for your own model railway on other train elements.
