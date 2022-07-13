@@ -4,6 +4,8 @@ Die Annotation erfolgt mit [VGG Image Annotator](https://www.robots.ox.ac.uk/~vg
 Im VGG Image Annotator öffnen Sie die Projekt-Datei "VIA_SMRC.json" auf dem PC. In den Projekt-Settings setzen sie den Default-Path auf den Pfad 
 mit den Trainingsdaten (muss mit "\\" enden). 
 
+Danach müssen die Klassennamen der Loks bzw. Waggons unter "Attributes" im Attribute "classname" mit "Add new option id" eingetragen werden. Loks müssen mit ":" beginnen.
+
 Nach der Annotation exportieren Sie das Ergebnis als JSON-Datei und generieren die trainings.csv Datei.
 
 |Dateiname | Beschreibung |
@@ -17,6 +19,8 @@ In this folder the selected training data is stored on a PC. They have to be unz
 The annotation has to be done with [VGG Image Annotator](https://www.robots.ox.ac.uk/~vgg/software/via/).
 Open the project file "VIA_SMRC.json" with VGG Image Annotator on the PC. Change the default path in the project settings to the path with 
 the training data on youtr PC. Don't forget a closing "\\". 
+
+Then the class names of the locomotives or wagons must be entered under "Attributes" in the "classname" attribute with "Add new option id". Locomotives must begin with ":"
 
 After having done the annotation export the result as JSON-file and generate training.csv.
 
