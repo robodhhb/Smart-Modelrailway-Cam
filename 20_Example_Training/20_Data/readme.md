@@ -1,6 +1,9 @@
 # Beispiel: Annotation der Trainingsdaten
 In diesem Ordenr werden die für das Training ausgewählten Bilder abgelegt. Sie müssen für das Training entpackt auf dieser Ebene liegen (ohne Unterordner). 
 Die Annotation erfolgt mit [VGG Image Annotator](https://www.robots.ox.ac.uk/~vgg/software/via/).
+
+(Klassen-)Namen von Lokomotiven beginnen mit einem ":". 
+
 Weitere Dateien für dieses Beipiel sind:
 |Dateiname | Beschreibung |
 |---------------- | -----------------------------------|
@@ -12,6 +15,9 @@ Weitere Dateien für dieses Beipiel sind:
 # Example: Annotation of the training data
 In this folder the selected traing data is stored. They have to be unzipped for the training without creating a subfolder.
 The annotation has been done with [VGG Image Annotator](https://www.robots.ox.ac.uk/~vgg/software/via/).
+
+(Class)Names of Lokomotives start with a ":". 
+
 Files in this example are:
 |Filename | Description |
 |---------------- | -----------------------------------|
