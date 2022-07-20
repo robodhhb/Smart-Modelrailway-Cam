@@ -9,7 +9,7 @@ Ein KI-Modell für die Objekterkennung hilft uns dabei. Das Modell wurde mit Tra
 für die Erkennung von einer kleinen Dampflok und einer großen Diesellok trainiert.
 Das Projekt bietet die Möglichkeit, das Modell für die eigene Modellbahn auf andere Zugelemente umzutrainieren. 
 
-Ein YouTube-Video zeigt die Smart Modelrailway-Cam (SMRC) in Aktion. Die SMRC kann:
+Ein [YouTube-Video](https://youtu.be/bj03N66IT6s) zeigt die Smart Modelrailway-Cam (SMRC) in Aktion. Die SMRC kann:
  - trainierte Zugelemente erkennen.
  - konfigurierte Überwachungsbereiche (Gleise) unterscheiden
  - die Gleiszuordnung einer Lok feststellen.
@@ -28,7 +28,7 @@ An AI model for object-detection helps us with this. The model was created using
 trained to recognize a small steam engine and a large diesel engine.
 The project offers the possibility to retrain the model for your own model railway on other train elements.
 
-A YouTube video shows the Smart Modelrailway Cam (SMRC) in action. The SMRC can:
+A [YouTube-video](https://youtu.be/bj03N66IT6s) shows the Smart Modelrailway Cam (SMRC) in action. The SMRC can:
   - recognize trained train elements.
   - distinguish between configured monitoring regions (tracks)
   - determine the track assignment of a locomotive.
