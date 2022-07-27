@@ -1,8 +1,8 @@
 Installation der Smart Modelrailway-Cam Applikation (see English Version below)
 ===================================================================
 Voraussetzung: Raspberry Pi 4B mit 
-  - PiOS (Legacy) Buster  und Python 3.7 
-     !!Nicht PiOS Bullseye verwenden!!!
+  - Pi OS (Legacy) Buster  und Python 3.7 
+     !!Nicht Pi OS Bullseye verwenden!!!
   - Raspberry Pi Camera V2
   - Coral USB Accelerator (Edge TPU)
 
@@ -56,8 +56,8 @@ b) Da das Programm mit Objekterkennung arbeitet, dürfen nicht 2 oder mehrere
 Installation of the application "Smart Modelrailway-Cam"
 --------------------------------------------
 Prerequisite: Raspberry Pi 4B with:
-   - PiOS (Legacy) Buster and Python 3.7
-      !!! Do not use PiOS Bullseye !!!
+   - Pi OS (Legacy) Buster and Python 3.7
+      !!! Do not use Pi OS Bullseye !!!
    - Raspberry Pi Camera V2
    - Coral USB Accelerator (Edge TPU)
    
