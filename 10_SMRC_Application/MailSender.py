@@ -20,7 +20,7 @@ class MailSender(object):
     def __init__(self):
         
         #e-mail-config: Here config 5 values.
-        #senderAdress and reicerAdress must be different !
+        #senderAdress and receiverAdress must be different !
         self.senderAdress= "yourSenderEmailAdress"
         self.pwd= "passordOfSender"
         self.smtpHost= 'yourSMTPHost'
