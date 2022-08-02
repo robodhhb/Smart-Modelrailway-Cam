@@ -51,6 +51,8 @@ b) Da das Programm mit Objekterkennung arbeitet, dürfen nicht 2 oder mehrere
    gleiche Loks in der gleichen Region (Gleis) zur gleichen Zeit fahren.
    (Klassen-)Namen von Loks müssen mit ":" beginnen.
 
+Hinweise, Fragen, Anregungen und Ideen an:
+smrc_alert@gmx.de
     
 ========================English Version====================================
 Installation of the application "Smart Modelrailway-Cam"
