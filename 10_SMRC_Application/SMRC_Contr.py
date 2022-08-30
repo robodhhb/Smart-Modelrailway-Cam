@@ -3,7 +3,7 @@
 # Class SMRC_Contr
 # This class realizes the application control code for
 # using a camera and a Coral Edge TPU for inferencing.
-# The ECoral dgeTPU is accessed via the PyCoral-API.
+# The Coral EdgeTPU is accessed via the PyCoral-API.
 # This class invokes a parallel process for rule checking.
 #
 # File: SMRC_Contr.py
