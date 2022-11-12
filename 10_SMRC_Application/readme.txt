@@ -45,7 +45,7 @@ Die Installation der SmartModelrailway-Cam besteht aus:
 Bekannte Probleme:
 a)  Falls das Paket "ImageTk" nicht gefunden wird, muss es noch
     installiert werden mit:
-    sudo aptitude install python3-pil.imagetk
+    sudo apt install python3-pil.imagetk
 
 b) Da das Programm mit Objekterkennung arbeitet, dürfen nicht 2 oder mehrere
    gleiche Loks in der gleichen Region (Gleis) zur gleichen Zeit fahren.
@@ -100,7 +100,7 @@ Installation steps:
 --------------       
 Known issues:
 a)  If the paket "ImageTk" cannot be found, it has to be installed with:
-    sudo aptitude install python3-pil.imagetk
+    sudo apt install python3-pil.imagetk
     
 b) Since the program uses object-detection two or more same locomotives
    are not allowed to run on the same track (region) at the same time. 
