@@ -23,7 +23,7 @@ die Erstellung eines Modell mit anderen Loks oder Waggons.
 
 Eine ausführliche Beschreibung des Projekts ist im deutschen Make-Magazin 3/23 [KI für die Modelleisenbahn, Teil 1](https://www.heise.de/select/make/2023/3/2231207174080271096) erschienen.
 
-### Welcome to the Smart-Modelrailway-Cam(
+### Welcome to the Smart-Modelrailway-Cam
 We monitor track sections of a model railway system with artificial intelligence.
 We use a Raspberry Pi 4B with a camera and a [Coral USB Accelerator](https://coral.ai/products/accelerator/).
 An AI model for object-detection helps us with this. The model was created using transfer learning
