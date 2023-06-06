@@ -11,6 +11,7 @@ Weitere Dateien für dieses Beipiel sind:
 |VIA_SMRC_json.json | Exportierte Datei mit Annotationen |
 |VIAjson2ModelMaker.py | Programm zur Generierung der Datei "training.csv" |
 |training.csv | Trainingsdatei für das Transfer-Learning mit dem Google ModelMaker API|
+|train.py| Code für das Training mit Google ModelMaker API (wird vom jupyter notebook aufgerufen)|
 
 # Example: Annotation of the training data
 In this folder the selected traing data is stored. They have to be unzipped for the training without creating a subfolder.
@@ -25,3 +26,4 @@ Files in this example are:
 |VIA_SMRC_json.json | Exported annotation file |
 |VIAjson2ModelMaker.py | Program for generation the file "training.csv" |
 |training.csv | Training file for the  Google ModelMaker API|
+|train.py| Code for the training with Google ModelMaker API (is called by the jupyter notebook)|

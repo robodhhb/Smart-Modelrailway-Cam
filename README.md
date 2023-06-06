@@ -21,6 +21,8 @@ Der Ordner "20_Example_Training" enthält die Dateien für das Transfer-Learning
 mit Dampflok und Diesellok. Der Ordner "30_Your_Training" enthält Dateien und Programme für 
 die Erstellung eines Modell mit anderen Loks oder Waggons. 
 
+Eine ausführliche Beschreibung des Projekts ist im deutschen Make-Magazin 3/23 [KI für die Modelleisenbahn, Teil 1](https://www.heise.de/select/make/2023/3/2231207174080271096) erschienen.
+
 ### Welcome to the Smart-Modelrailway-Cam
 We monitor track sections of a model railway system with artificial intelligence.
 We use a Raspberry Pi 4B with a camera and a [Coral USB Accelerator](https://coral.ai/products/accelerator/).
@@ -39,4 +41,6 @@ The application for the Raspberry Pi is stored in the folder "10_SMRC_Applicatio
 The folder "20_Example_Training" contains the files for the transfer learning of the example
 with steam engine and diesel engine. The "30_Your_Training" folder contains files and programs for
 the creation of a model with other locomotives or wagons.
+
+A detailed description of the project has appeared in the German Make Magazine 3/23 [KI for model railways, part 1](https://www.heise.de/select/make/2023/3/2231207174080271096).
 
