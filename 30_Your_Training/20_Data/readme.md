@@ -12,6 +12,7 @@ Nach der Annotation exportieren Sie das Ergebnis als JSON-Datei und generieren d
 |---------------- | -----------------------------------|
 |VIA_SMRC.json    | Projekt-Datei für den VGG Image Annotator |
 |VIAjson2ModelMaker.py | Programm zur Generierung der Datei "training.csv" nach dem Annotieren |
+|train.py| Code für das Training mit Google ModelMaker API (wird vom jupyter notebook aufgerufen)|
 
 
 # Annotation of your training data
@@ -28,3 +29,4 @@ After having done the annotation export the result as JSON-file and generate tra
 |---------------- | -----------------------------------|
 |VIA_SMRC.json    | Project-file for the  VGG Image Annotator |
 |VIAjson2ModelMaker.py | Program for generation the file "training.csv" |
+|train.py| Code for the training with Google ModelMaker API (is called by a jupyter notebook)|
