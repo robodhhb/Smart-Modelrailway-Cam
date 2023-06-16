@@ -6,7 +6,7 @@ mit den Trainingsdaten (muss mit "\\" enden).
 
 Danach müssen die Klassennamen der Loks bzw. Waggons unter "Attributes" im Attribute "classname" mit "Add new option id" eingetragen werden. Loks müssen mit ":" beginnen.
 
-Nach der Annotation exportieren Sie das Ergebnis als JSON-Datei und generieren die trainings.csv Datei.
+Nach der Annotation exportieren Sie das Ergebnis als JSON-Datei und generieren die trainings.csv Datei. Für das Training müssen alle Dateien dieses Ordners in ihr Google-Drive Verzeichnis /content/drive/MyDrive/TrainData hochgeladen werden.
 
 |Dateiname | Beschreibung |
 |---------------- | -----------------------------------|
@@ -23,7 +23,7 @@ the training data on youtr PC. Don't forget a closing "\\".
 
 Then the class names of the locomotives or wagons must be entered under "Attributes" in the "classname" attribute with "Add new option id". Locomotives must begin with ":"
 
-After having done the annotation export the result as JSON-file and generate training.csv.
+After having done the annotation export the result as JSON-file and generate training.csv. For the training all files of this folder have to be uploaded to your google-drive folder: /content/drive/MyDrive/TrainData.
 
 |Filename | Description |
 |---------------- | -----------------------------------|
