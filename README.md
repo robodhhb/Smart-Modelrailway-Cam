@@ -42,5 +42,5 @@ The folder "20_Example_Training" contains the files for the transfer learning of
 with steam engine and diesel engine. The "30_Your_Training" folder contains files and programs for
 the creation of a model with other locomotives or wagons.
 
-A detailed description of the project has appeared in the German Make Magazine 3/23 [KI for model railways, part 1](https://www.heise.de/select/make/2023/3/2231207174080271096).
+A detailed description of the project has appeared in the German Make Magazine 3/23 [AI for model railways, part 1](https://www.heise.de/select/make/2023/3/2231207174080271096).
 
