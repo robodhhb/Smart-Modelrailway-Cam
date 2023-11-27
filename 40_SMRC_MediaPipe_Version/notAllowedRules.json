@@ -1,0 +1,48 @@
+{
+    "mailNotification": "off",
+    "NotAllowedRules": [
+        {
+            "region": "Gleis 1",
+            "class": ":Dampflok",
+            "notAllowed": 
+            [
+                { "state": "absent",
+                  "allowedFor": "15"
+                }
+            ]
+        },
+        {
+            "region": "Gleis 2",
+            "class": ":Diesellok",
+            "notAllowed": 
+            [
+                { "state": "stopped",
+                  "allowedFor": "0"
+                }
+            ]
+        },
+        {
+            "region": "Gleis 3",
+            "class": ":Diesellok",
+            "notAllowed": 
+            [
+                { "state": "stopped",
+                  "allowedFor": "25"
+                }
+            ]
+        },
+        {
+            "region": "Gleis 3",
+            "class": ":Dampflok",
+            "notAllowed": 
+            [
+                { "state": "stopped",
+                  "allowedFor": "0"
+                },
+                { "state": "moving",
+                  "allowedFor": "0"
+                }
+            ]
+        }
+    ]  
+}
