@@ -102,7 +102,8 @@ b) Since the program uses object-detection two or more same locomotives
    are not allowed to run on the same track (region) at the same time. 
    Locomotive's (class-)name allways starts with a ":". 
 
-
+Hints, questions, ideas to:
+smrc_alert@gmx.de
  
       
    
