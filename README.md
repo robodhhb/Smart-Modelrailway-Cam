@@ -65,7 +65,7 @@ This implementation is based on PiOS Bullseye and Bookworm both 64bit. For objec
 it uses the new [MediaPipe-Library of Google](https://developers.google.com/mediapipe/solutions/vision/object_detector/).
 As this API is a Alpha-Version this implementation of the SMRC can bee seen as experimental.
 The access to the picamera is realized via the new picamera2-API. The implementation and 
-the installation description can be accesed in the folder "40_SMRC_MediaPipe_Version".
+the installation description can be accessed in the folder "40_SMRC_MediaPipe_Version".
 Object-detection runs on the CPU of the raspberry pi and performs therefore slower than on the 
 Coral USB Accelerator (4-4.5 fps instead of 6.5 - 7 fps on Raspberry Pi 4B).
 
