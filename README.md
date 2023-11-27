@@ -31,7 +31,9 @@ Eine ausführliche Beschreibung des Projekts ist im deutschen Make-Magazin 3/23 
 Diese Implementierung basiert auf PiOS Bullseye oder Bookworm in der 64 Bit Variante. Sie verwendet
 für die Objekterkennung die neue [MediaPipe-Bibliothek von Google](https://developers.google.com/mediapipe/solutions/vision/object_detector/). Da sie noch in der Alpha-Version
 vorliegt ist dies Variante der SMRC noch experimentel. Der Zugriff auf die Kamera erfolgt über die 
-neue picamera2-Bibliothek. 
+neue picamera2-Bibliothek. Die Implementierung und die Installationsanweisung ist im Ordner "40_SMRC_MediaPipe_Version". 
+Die Objekterkennung erfolgt auf der CPU des Raspberry Pi und ist daher etwas langsamer als die Implementerung 
+mit dem Coral USB Accelerator (4-4.5 fps statt 6.5 bis 7 fps auf Raspberry Pi 4B).
 
 ### Welcome to the Smart-Modelrailway-Cam
 We monitor track sections of a model railway system with artificial intelligence.
