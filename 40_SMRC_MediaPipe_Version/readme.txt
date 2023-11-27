@@ -4,6 +4,8 @@ Voraussetzung: Raspberry Pi 4B or 5 mit
   - PiOS (Legacy) Bullseye 64bit  oder PiOS Bookworm 64bit 
   - Python 3.9 or later
   - Raspberry Pi Camera V2
+  - MediaPipe-API ab 0.10.8
+(getestet mit Raspberry Pi 4B, PiOS Bullseye 64bit)
 
 Empfohlen: Update von PiOS
 - sudo apt update
@@ -53,10 +55,12 @@ smrc_alert@gmx.de
 ========================English Version====================================
 Installation of the application "Smart Modelrailway-Cam"
 --------------------------------------------
-Prerequisite: Raspberry Pi 4B or 5 mit 
+Prerequisite: Raspberry Pi 4B or 5 with 
   - PiOS (Legacy) Bullseye 64bit  or PiOS Bookworm 64bit 
   - Python 3.9 or later
   - Raspberry Pi Camera V2
+ - MediaPipe-API ab 0.10.8
+(tested with Raspberry Pi 4B, PiOS Bullseye 64bit)
    
 Recommended: Update PiOS Buster
 - sudo apt update
@@ -72,17 +76,21 @@ Installation steps:
 3) Access the Pi desktop with VNC via a PC:
    Additional info: https://www.raspberrypi.com/documentation/computers/remote-access.html#vnc
 
-4) Foe a PC: Download des VNC Viewers:
+4) Foe a PC: Download des VNC Viewers: (actually does not run on PiOS Bookworm)
    https://www.realvnc.com/en/connect/download/viewer/
 
-5) Download the GitHub-Repository 
+5) Installation of MediaPipe-API:
+   See: https://developers.google.com/mediapipe/solutions/setup_python
+   MediaPipe Version 0.10.8 or higher
+
+6) Download the GitHub-Repository 
    on the Raspberry Pi under the user "pi":
    https://github.com/robodhhb/Smart-Modelrailway-Cam 
    
-6) On Pi: Open LXTerminal and unzip downloaded file in a folder of your choice
-    and change directory to "Smart-Modelrailway-Cam 2.0"
+7) On Pi: Open LXTerminal and unzip downloaded file in a folder of your choice
+    and change directory to "40_SMRC_MediaPipe_Version"
 
-7) Run the programs:
+8) Run the programs:
        - Start in LXTerminal:  python3 SMRC_Main.py.py
      
 --------------       
