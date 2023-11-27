@@ -22,16 +22,19 @@ Die Installation der SmartModelrailway-Cam besteht aus:
 4) Für den PC: Download des VNC Viewers:
    https://www.realvnc.com/en/connect/download/viewer/
 
+5) Installation der MediaPipe-API:
+   Siehe: https://developers.google.com/mediapipe/solutions/setup_python
+   MediaPipe Version ab 0.10.8
                      
-5) Download des GitHub-Repository 
+6) Download des GitHub-Repository 
    auf dem Raspberry Pi unter dem user "pi":
    https://github.com/robodhhb/Smart-Modelrailway-Cam 
    mit dem grünen Knopf "code" und dann "Download zip". 
 
-6) Pi: LXTerminal öffnen und zip-Datei mit unzip in einem Ordner Ihrer Wahl entpacken
-    und in den Ordner "SMRC-Application 2.0 (MediaPipe Version)" mit cd wechseln
+7) Pi: LXTerminal öffnen und zip-Datei mit unzip in einem Ordner Ihrer Wahl entpacken
+    und in den Ordner "40_SMRC_MediaPipe_Version" mit cd wechseln
 
-7) Programme starten:   
+8) Programme starten:   
    - Starten im LXTerminal mit "python3 SMRC_Main.py"
     
 ------------------    
