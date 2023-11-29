@@ -49,6 +49,9 @@ b) Da das Programm mit Objekterkennung arbeitet, dürfen nicht 2 oder mehrere
    gleiche Loks in der gleichen Region (Gleis) zur gleichen Zeit fahren.
    (Klassen-)Namen von Loks müssen mit ":" beginnen.
 
+Hinweis: Die Datei model.tflite ist ein float-model (32bit) und somit nicht quantized. Es hat eine 
+bessere Erkennungsrate ist aber deutlich langsamer (2.8 fps) und für die Anwendung zu langsam.
+
 Hinweise, Fragen, Anregungen und Ideen an:
 smrc_alert@gmx.de
     
@@ -101,6 +104,9 @@ a)  If the paket "ImageTk" cannot be found, it has to be installed with:
 b) Since the program uses object-detection two or more same locomotives
    are not allowed to run on the same track (region) at the same time. 
    Locomotive's (class-)name allways starts with a ":". 
+
+Hint: The file model.tflite is a not quantized float model (32bit). It has a higher AP but performs 
+too slow for this application (2.8 fps).
 
 Hints, questions, ideas to:
 smrc_alert@gmx.de
