@@ -43,7 +43,7 @@ class SMRC_Contr(object):
         self.myView= aView
         
         #Initialization for object detection
-        self.default_model ='SMRC_model_qat_int8.tflite' #Float tflite-model
+        self.default_model ='SMRC_model_qat_int8.tflite' #An int8 model trained with qauntized aware training
         self.default_labels = 'railwayLabels.txt'
         self.default_threshold= minObjectScore
         self.default_top_k= threshold    # max count of detected objects
