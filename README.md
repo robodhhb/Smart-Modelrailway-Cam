@@ -33,7 +33,7 @@ für die Objekterkennung die neue [MediaPipe-Bibliothek von Google](https://deve
 vorliegt ist diese Variante der SMRC noch experimentel. Der Zugriff auf die Kamera erfolgt über die 
 neue picamera2-Bibliothek. Die Implementierung und die Installationsanweisung ist im Ordner "40_SMRC_MediaPipe_Version". 
 Die Objekterkennung erfolgt auf der CPU des Raspberry Pi und ist daher etwas langsamer als die Implementerung 
-mit dem Coral USB Accelerator (4-4.5 fps statt 6.5 bis 7 fps auf Raspberry Pi 4B).
+mit dem Coral USB Accelerator (4-4.9 fps statt 6.5 bis 7 fps auf Raspberry Pi 4B).
 
 Um andere Zugelemente zu erkennen, muss ein Modell mit dem MediaPipe Modelmaker neu trainiert werden. Der
 [Object detection model customization guide](https://developers.google.com/mediapipe/solutions/customization/object_detector/) 
@@ -71,7 +71,7 @@ As this API is a Alpha-Version this implementation of the SMRC can bee seen as e
 The access to the picamera is realized via the new picamera2-API. The implementation and 
 the installation description can be accessed in the folder "40_SMRC_MediaPipe_Version".
 Object-detection runs on the CPU of the raspberry pi and performs therefore slower than on the 
-Coral USB Accelerator (4-4.5 fps instead of 6.5 - 7 fps on Raspberry Pi 4B).
+Coral USB Accelerator (4-4.9 fps instead of 6.5 - 7 fps on Raspberry Pi 4B).
 
 To detect other train elements you have to retrain a model with the MediaPipe ModelMaker.
 See [Object detection model customization guide](https://developers.google.com/mediapipe/solutions/customization/object_detector/) for explanations.
